@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "magnet",
+  "pattern": [
+    "l r",
+    "idi",
+    "iii"
+  ],
+  "key": {
+    "l": {
+      "tag": "forge:gems/lapis"
+    },
+    "r": {
+      "tag": "forge:dusts/redstone"
+    },
+    "d": {
+      "tag": "forge:gems/diamond"
+    },
+    "i": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "avaritia:magnet"
+  }
+}

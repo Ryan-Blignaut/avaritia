@@ -1,0 +1,7 @@
+World breaker
+flight as in angle ring
+fluid replicator eg tank that cant be emptied
+soul item
+neutronium supplier block(inv or base)
+backpack bag like item
+time acceleration item(base like time in bottle) but upgradable to have infinite time

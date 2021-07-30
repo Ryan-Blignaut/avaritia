@@ -1,0 +1,28 @@
+{
+  "type": "avaritia:extreme",
+  "pattern": [
+    "     iis ",
+    "    i  s ",
+    "   i   s ",
+    "  i    s ",
+    "  x    s ",
+    "  i    s ",
+    "   i   s ",
+    "    i  s ",
+    "     iis "
+  ],
+  "key": {
+    "i": {
+      "item": "avaritia:extreme_ingot"
+    },
+    "s": {
+      "item": "minecraft:string"
+    },
+    "x": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  },
+  "result": {
+    "item": "avaritia:infinity_bow"
+  }
+}

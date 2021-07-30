@@ -1,0 +1,11 @@
+{
+  "loader": "avaritia:super",
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "avaritia:item/infinity_sword",
+    "layer1": "avaritia:item/infinity_sword_overlay"
+  },
+  "overlay_layers": [
+    1
+  ]
+}

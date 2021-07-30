@@ -1,0 +1,75 @@
+MULTI-BLOCK for capacitor
+the actual model of the block is going to change dependant on the other side blocks and the capacity and inventory must also link up
+defiantly need a data generator for the model as the model is going to have a lot of variances
+eg connected west and no others, connected south and no others, connected North, East, South, West, Up, Down
+then to complicate this even more i want to have a different colour for input, output and "off"(not in or out)
+
+MODULAR SYSTEM
+=>  Spec
+    -> modules will be able to augment certain(modular) items, eg.improved capacity/efficiency,greater range, ability to filter
+    -> unsure if i want to have the upgrade bench idea or stick with the base crafting
+        ==> Upgrade bench
+                pros
+                    with this is it can be time related
+                    have power capabilities
+                    ability to remove modules??
+                cons
+                    complicated gui
+        ==>base crafting
+            pros
+                "relatively" simple
+            cons
+                need to improve the logic to say when it is ok to craft so that it does not just consume all of the ingredients
+
+    -> on modular items there should be a tool tip to say what upgrades are available and what upgrades are "installed"
+
+=>  FILTER(this will be inserted into applicable modules -line 4-)
+    -> (can be right clicked to empty)??
+    -> they cant be inserted into one another as that could be potentially a bad time :)
+    -> when a empty an crafted with filled the contents should be copied over(2 of the filled as output) and when you upgrade the size the contents and upgrades will persist
+    -> should have a slot in the modular item(maybe more for an item like the hammer)
+    -> filters should have the same button tag "like" system as before
+    -> thinking of having different tiers eg small(1 slot), medium(9 slots), large(18 slots), huge(36 slots)
+    -> also not sure if i should have a black/white list in the actual filter item or have it in the modular item,
+        main reason for this concern is because i am thinking that they could be used in other machines later on where
+        we might not want that functionality
+=>  Modules
+    ->Power efficiency -all
+    ->Pickup Filter -adt -sword -magnet -bagOfHold
+    ->
+
+HAMMER(augmented digging tool?(AllInOneTool))
+=>  Spec
+    -> this item will act like a pickaxe and a shovel,being able to break both sand and stone efficiently
+    -> by default it will break a 3x3 area, yet this will be able to be increased with modules
+    -> all blocks that the hammer will effect must have some kind of visualisation,eg. outline/ overlay
+
+DIGITAL STORAGE
+=> Spec
+    -> highly doubt that i will implement a system like refined storage, but maybe we have a remote storage/access system
+
+
+Machine/Power gen
+screen config for sides and a multi-part model that will also visualy for this
+
+Power Gen
+-> solar panel
+-> some type of burnable generator
+-> some type of thermal gen
+    i am thinking of lava gen but having different materials around it makes it more efficient/effective
+    so having cold blocks will make it faster but less efficient
+    and hot blocks will make it slower but more efficient
+
+CHARGING
+=> Spec
+    -> all modular items will consume power and thus they will need to be charged some how
+=> CAPACITOR LIKE BLOCK
+    -> this will be able to store a "large" quantity of power but will also have slots for items to be charged
+    -> also there should be different tiers
+         small (able to only charge 1 item and having a capacity of     500 000)
+         medium (able to only charge 3 item and having a capacity of  1 500 000)
+         large (able to only charge 5 item and having a capacity of  30 000 000)
+         huge/gigantic (able to charge 9 item and having a capacity of 500 000 000)
+         creative(able to only charge 9 slots items but Integer.max as the capacity and no drain)
+=> BATTERY
+    -> pretty much the same as the CAPACITOR yet no tiers as the modules will take care of that

@@ -1,0 +1,11 @@
+{
+  "loader": "forge:item-layers",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "avaritia:item/base",
+    "layer1": "avaritia:item/upgrades/n"
+  },
+  "fullbright_layers": [
+    1
+  ]
+}

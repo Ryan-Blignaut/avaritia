@@ -1,0 +1,11 @@
+{
+  "loader": "avaritia:super",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "avaritia:item/matter_empty",
+    "layer1": "avaritia:item/matter_empty_overlay"
+  },
+  "overlay_layers": [
+    1
+  ]
+}

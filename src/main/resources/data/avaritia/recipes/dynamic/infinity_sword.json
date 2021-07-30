@@ -1,0 +1,31 @@
+{
+  "type": "avaritia:extreme",
+  "pattern": [
+    "       ii",
+    "      iii",
+    "     iii ",
+    "    iii  ",
+    " x iii   ",
+    "  xii    ",
+    "  nx     ",
+    " n  x    ",
+    "x        "
+  ],
+  "key": {
+    "i": {
+      "item": "avaritia:extreme_ingot"
+    },
+    "n": {
+      "item": "avaritia:neutronium_ingot"
+    },
+    "x": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  },
+  "result": {
+    "item": "avaritia:infinity_sword",
+    "nbt": {
+      "Enchantments": [{"lvl":10,"id":"minecraft:looting"}]
+    }
+  }
+}

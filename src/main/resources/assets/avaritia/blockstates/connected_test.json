@@ -1,0 +1,14 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "when": {"AND": [ { "north": true }, { "west": true },{ "up": true } ] },
+        "model": "avaritia:block/multi/merging_block_2px_north_west_up"
+      },
+      "apply": {
+      "when": {"AND": [ { "north": true }, { "west": true },{ "up": true } ] },
+      "model": "avaritia:block/multi/merging_block_2px_north_west_up"
+    }
+    }
+  ]
+}

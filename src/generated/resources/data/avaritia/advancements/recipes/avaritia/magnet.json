@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "avaritia:magnet"
+    ]
+  },
+  "criteria": {
+    "hasItems": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:redstone"
+          },
+          {
+            "item": "minecraft:lapis_lazuli"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "avaritia:magnet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hasItems",
+      "has_the_recipe"
+    ]
+  ]
+}

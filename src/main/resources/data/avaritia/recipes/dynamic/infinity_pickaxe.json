@@ -1,0 +1,36 @@
+{
+  "type": "avaritia:extreme",
+  "pattern": [
+    " iiiiiii ",
+    "iiiixiiii",
+    "ii  n  ii",
+    "i   n   i",
+    "    n    ",
+    "    n    ",
+    "    n    ",
+    "    n    ",
+    "    n    "
+  ],
+  "key": {
+    "i": {
+      "item": "avaritia:extreme_ingot"
+    },
+    "n": {
+      "item": "avaritia:neutronium_ingot"
+    },
+    "x": {
+      "item": "avaritia:infinity_catalyst"
+    }
+  },
+  "result": {
+    "item": "avaritia:infinity_pickaxe",
+    "nbt": {
+      "Enchantments": [
+        {
+          "lvl": 10,
+          "id": "minecraft:fortune"
+        }
+      ]
+    }
+  }
+}

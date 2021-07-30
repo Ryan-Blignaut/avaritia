@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "avaritia:item/base",
+    "layer1": "avaritia:item/upgrades/eyen"
+  }
+}

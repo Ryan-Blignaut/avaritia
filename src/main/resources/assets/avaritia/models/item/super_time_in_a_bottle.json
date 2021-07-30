@@ -1,0 +1,11 @@
+{
+  "loader": "avaritia:super",
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "avaritia:item/super_time_in_a_bottle",
+    "layer1": "avaritia:item/super_time_in_a_bottle_overlay"
+  },
+  "overlay_layers": [
+    1
+  ]
+}
